@@ -24,13 +24,13 @@ This project is a React-Firebase application that allows users to manage user da
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/react-firebase-user-management.git
+    git clone https://github.com/your-username/UserDataManager-422.git
     ```
 
 2. **Change into the project directory:**
 
     ```bash
-    cd react-firebase-user-management
+    cd UserDataManager-422
     ```
 
 3. **Install dependencies:**
