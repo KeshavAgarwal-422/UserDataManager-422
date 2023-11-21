@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a1cab1;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #4cae4c;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4cae4c;
+    color: white;
+}
+
+button {
+    background-color: #4cae4c;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 16px;
+}
+
+button:hover {
+    background-color: #45a745;
+}
+
+input[type="text"] {
+    padding: 5px 10px;
+    width: 200px;
+    height: 20px;
+    border: 1px solid #4cae4c;
+    border-radius: 16px;
+}
+
+select {
+    width: 200px;
+    height: 32px;
+    padding: 5px 10px;
+    margin-inline: 10px;
+    border: 1px solid #4cae4c;
+    border-radius: 16px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+}
+
+select:hover {
+    background-color: #f2f2f2;
+}
+
+option {
+    background-color: white;
+    color: #333;
+}
+
+option:hover {
+    background-color: #ddd;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100vw;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    width: 100vw;
+}
+
+.search-input {
+    width: 90vw;
+    padding: 5px 10px;
+    height: 20px;
+    border: 1px solid #4cae4c;
+    border-radius: 16px;
+}
+
+.inputs-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin: 50px 0;
+    padding-inline: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,63 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #4cae4c;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4cae4c;
+    color: white;
+}
+
+button {
+    background-color: #4cae4c;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 16px;
+}
+
+button:hover {
+    background-color: #45a745;
+}
+
+input[type="text"] {
+    padding: 5px 10px;
+    width: 100px;
+    height: 20px;
+    border: 1px solid #4cae4c;
+    border-radius: 16px;
+}
+
+select {
+    width: 120px;
+    height: 32px;
+    padding: 5px 10px;
+    margin-inline: 10px;
+    border: 1px solid #4cae4c;
+    border-radius: 16px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+}
+
+select:hover {
+    background-color: #f2f2f2;
+}
+
+option {
+    background-color: white;
+    color: #333;
+}
+
+option:hover {
+    background-color: #ddd;
+}
